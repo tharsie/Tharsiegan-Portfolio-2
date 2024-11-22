@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/header-img.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -55,7 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
+                <span className="tagline">Welcome to my Portfolio  </span><button className="tagline" >Download my CV</button>
                 <h1>{`Hi! I'm Tharsiegan`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[Software Engineer Intern]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a passionate software engineer with a strong focus on React.js and front-end development.
                      Currently pursuing a BSc (Hons) in Information Technology at SLIIT, I enjoy building scalable and efficient

@@ -97,6 +97,12 @@ nav.navbar.scrolled {
 nav.navbar a.navbar-brand {
     width: 9%;
 }
+.navbar-logo {
+  width: 180px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  
+}
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
