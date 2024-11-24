@@ -1,5 +1,3 @@
-// models/Contact.js
-
 const mongoose = require('mongoose');
 
 // Define the contact schema
@@ -30,4 +28,4 @@ const contactSchema = new mongoose.Schema({
 // Create the Contact model
 const Contact = mongoose.model('Contact', contactSchema);
 
-module.exports = Contact;  // Export the model for use in routes
+module.exports = Contact; // Export the model for use in routes
